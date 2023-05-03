@@ -90,3 +90,26 @@ docker ps
 docker exec -it 94203d62cad9 bash
 docker ps
 docker exec -it d3f9247fa77c bash
+git clone https://github.com/scmlearning/vprofile-v1.git
+git push origin master
+git init
+git add -A
+ls -l
+git commit -m "new modification"
+git config --global user.email "bvrdevops2k20@gmail.com"
+git config --global user.name "techlearnwithbvr"
+git commit -m "new modification"
+git add -A
+git commit -m "new modification"
+git push origin master
+git remote add origin https://github.com/techlearnwithbvr/vprofile-v1.git
+git push origin master
+clear
+docker ps
+docker exec -it dc51d3a327ed bash
+clear
+yum install git -y
+sudo yum install git -y
+clear
+git push origin master
+ls -l
