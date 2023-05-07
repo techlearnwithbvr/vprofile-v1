@@ -113,3 +113,87 @@ sudo yum install git -y
 clear
 git push origin master
 ls -l
+clear
+docker ps
+docker run -d -p 80:80 nginx
+docker run -d -p 81:80 nginx
+git pull
+git clone https://github.com/techlearnwithbvr/vprofile-v1.git
+ls -l
+rm -rf vprofile-v1
+ls -l
+git clone https://github.com/techlearnwithbvr/vprofile-v1.git
+ls -l
+docker ps
+pwd
+docker exec -it 53dde0ddf36e bash
+docker build -t Dockerfiles:v1
+cd Dockerfiles
+git pull
+git pull
+clear
+ls -l
+git clone https://github.com/techlearnwithbvr/vprofile-v1
+git clone https://github.com/techlearnwithbvr/vprofile-v1.git
+cd vprofile-v1
+ls -l
+cd ..
+mkdir hello
+cd hello
+git clone https://github.com/techlearnwithbvr/vprofile-v1.git
+ls -l
+git clone https://github.com/techlearnwithbvr/Docker.git
+cd Docler/ADD/
+cd Docker/ADD/
+ls -l
+docker build -t add:1.0
+docker build -t add:1.0 .
+docker build -t add:2.0 .
+docker build -t add:3.0 .
+clear
+cd ../..
+ls -l
+rm -rf Docker
+ls -l
+git clone https://github.com/techlearnwithbvr/Docker.git
+ls -l
+cd Docker/ADD
+ls -l
+docker build -t add:1.0 .
+tar -xzf apache-tomcat-9.0.74.tar.gz
+ls -l
+docker build -t add:1.0 .
+cd ../..
+git push origin master
+ls -l
+git add -A
+cd Docker
+cd ADD
+ls -l
+cd ../..
+git commit -m "new"
+git push origin master
+git pull
+ls -l
+rm -rf Docker
+git pull
+ls -l
+git pull origin master
+git pull https://github.com/techlearnwithbvr/Docker
+ls -l
+rm -rf vprofile-v1
+rm -rf hello
+ls -l
+git pull https://github.com/techlearnwithbvr/Docker
+git pull
+git pull origin master
+cd ADD
+git clone https://github.com/techlearnwithbvr/Docker
+ls -l
+cd Docker
+ls -l
+cd ADD
+ls -l
+docker build -t ADD:1.0
+docker build -t add:1.0
+docker build -t add:1.0 .
